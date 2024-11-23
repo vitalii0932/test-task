@@ -82,7 +82,7 @@ public class IO {
     /**
      * Writes the result to the output file
      *
-     * @param result the result to write
+     * @param result - the result to write
      * @throws Exception if an error occurred while writing the file
      */
     public void writeFile(int[] result) throws Exception {

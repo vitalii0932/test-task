@@ -51,7 +51,7 @@ public class Task1 {
      * Get permutations count for N
      *
      * @param N - number of pairs of parentheses
-     * @return permutations count
+     * @return - permutations count
      */
     public static int getPermutationsCount(int N) {
         if (N < 1) {

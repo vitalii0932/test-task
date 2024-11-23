@@ -50,7 +50,7 @@ public class Task2 {
      *
      * @param edge - edge between two cities
      * @param cities - the list of cities
-     * @return shortest path
+     * @return - shortest path
      */
     public static int getShortestPath(Edge edge, List<City> cities) {
         int source = -1;
