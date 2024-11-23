@@ -50,6 +50,7 @@ public class IO {
      */
     public void writeFile(int result) throws Exception {
         try {
+            // write the result to the output file
             Files.writeString(Paths.get("src").resolve("Task1").resolve(outputFile), String.valueOf(result));
         } catch (Exception e) {
             throw new Exception(String.format("Error while writing the file: %s", e.getMessage()));
